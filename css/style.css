@@ -1,0 +1,187 @@
+
+/* ================================= 
+  Page Reset Preferences
+==================================== */
+* {
+	box-sizing: border-box;
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ================================= 
+  General Site Styles
+==================================== */
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	color: #e0e0eb;
+	background-color: #000;
+}
+
+header {
+  width: 100%;
+  background: #000033;
+  border-bottom: 5px solid #00ff99;
+  margin: 0 0 30px 0;
+  float: left; /* this property is what allows it to show and have a background color*/
+
+}
+
+#wrapper {
+  width: 80%;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+  color: #00ff99;
+}
+
+h4 {
+	padding: 2% 0;
+}
+
+input {
+  color: #000;
+}
+
+#speedDisplay {
+  width: 100px;
+  height: 35px;
+  border: 2px solid #1a66ff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+#instructions {
+  margin: 20px 0;
+}
+
+/* ================================= 
+  Navigation
+==================================== */
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 30px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  float: right;
+}
+
+nav a {
+  font-size: 1em;
+  font-weight: 800;
+  padding: 15px 10px;
+  color: #1a66ff;
+}
+
+/* ================================= 
+ Blinkability
+==================================== */
+
+/* ================================= 
+  Clear Floats
+==================================== */
+
+
+.clearfix {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+/* ================================= 
+  Buttons
+==================================== */
+
+button {
+  margin: 5px 10px 10px 0;
+  padding: 5px 15px;
+  background-color: #1a66ff;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* ================================= 
+  COlor Indicators
+==================================== */
+
+#dots {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  position: relative;
+}
+
+#dot-border {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  position: absolute;
+}
+#green {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  position: absolute;
+  padding: 8px;
+}
+
+#green {
+  background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(blue, green); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(blue, green); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(blue, green); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(blue, green); /* Standard syntax */
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+}
+
+
+
+
+
+
+

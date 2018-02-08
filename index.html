@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Metronome</title>
+    <!-- Add Google Fonts here if you need them -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+	<!-- ================================= 
+	 				HEADER
+	==================================== -->
+	<header>
+		<!-- ================================= 
+		 				main nav
+		==================================== -->
+			<nav>
+		        <ul>
+		          <li><a href="index.html" class="selected">Home</a></li>
+		        </ul>
+	      	</nav>
+	</header>
+	<!-- ================================= 
+				PAGE CONTENT
+	==================================== -->
+	<div id="wrapper">
+		<div id="main-content" class="container clearfix">
+			<h3>Jeanie Herold - Metronome Project</h3>
+			<h4>Metronome APP - DEVELOPMENT PHASE</h4>
+
+			<div>
+				<form>
+					<input id="pbr" type="range" value="60" min="30" max="150" step="5" onchange="updateVal(this.value);" >
+					<div id="speedDisplay">
+						<p><span id="currentPbr"></span></p>
+				    </div><!--end speed display div-->
+				    <div id="dots">
+					    
+					    <div id="dot-border">
+							<div id="green"></div>
+						</div><!-- end dot border-->
+						
+					</div><!--end dots div-->
+				</form>
+				<div class="clearfix"></div>
+				<div id="instructions">		
+					<ul>
+						<li><h3>Instruction:</h3></li>
+						<li>Set desired Beats Per Minute</li>
+						<li>Click 'Set Metronome Speed' Button</li>
+						<li>Click 'Start'</li>
+						<li>Click 'Stop' when complete</li>
+					</ul>
+				</div>
+
+				<button id="setSpeed">Set Metronome Speed</button>
+				<button id="audio-start">Start</button><button id="audio-stop">Stop</button>
+			</div><!-- audio section -->
+		</div><!--end metronome container-->
+
+	</div><!--end wrapper div-->
+	
+	<!-- ================================= 
+					FOOTER
+	==================================== -->	
+	<footer></footer>
+
+	<!-- ================================= 
+					SCRIPTS
+	==================================== -->
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<!-- Add Plugin js Files here if you need them -->
+	<script src="js/main.js"></script>
+</body>
+</html>
